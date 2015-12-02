@@ -1,0 +1,285 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"AR",
+				"ARSLMFIL_SQL"
+			],
+			[
+				"fec",
+				"fecha_i"
+			],
+			[
+				"arc_sl",
+				"ARCUSFIL_SQL"
+			],
+			[
+				"sls",
+				"arc_slspsn_no"
+			],
+			[
+				"arc",
+				"aro_curr_trx_rt"
+			],
+			[
+				"date",
+				"date_sub"
+			],
+			[
+				"do",
+				"cus_documentosp"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"cus",
+				"cubrid_schema"
+			],
+			[
+				"get_ar_doc",
+				"get_ar_doc_due"
+			],
+			[
+				"amt",
+				"amt_2"
+			],
+			[
+				"get_ar",
+				"get_ar_doc_due"
+			],
+			[
+				"slspsn_",
+				"slspsn_name"
+			],
+			[
+				"appl",
+				"aggregate_properties_by_list"
+			],
+			[
+				"arc_cus_",
+				"arc_cus_name"
+			],
+			[
+				"arc_cus",
+				"arc_cus_type_cd"
+			],
+			[
+				"aro",
+				"aro_doc_dt"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Set Syntax: JSON"
+			],
+			[
+				"S",
+				"Set Syntax: XSL"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/reportesweb/age_cxc_cusp.php",
+		"/C/xampp/htdocs/reportesweb/date.php",
+		"/C/xampp/htdocs/reportesweb/ldap/test_ldap.php",
+		"/C/xampp/htdocs/reportesweb/age_cxc_excel.php",
+		"/C/xampp/mysql/bin/my.ini",
+		"/C/xampp/apache/conf/extra/httpd-ssl.conf",
+		"/C/xampp/htdocs/reportesweb/age_cxc_collector_excel.php",
+		"/C/xampp/htdocs/CarpetasServidor/copia/ldap/test_ldap.php",
+		"/C/xampp/htdocs/reportesweb081113/date.php",
+		"/C/xampp/htdocs/home.php",
+		"/C/xampp/htdocs/reportesweb/info.php",
+		"/C/xampp/htdocs/reportesweb/index.html",
+		"/C/xampp/htdocs/reportesweb/autenticacion.html",
+		"/C/xampp/htdocs/CarpetasServidor/index.html",
+		"/C/xampp/htdocs/reportesweb/autenticacion.php",
+		"/C/xampp/htdocs/reportesweb/index.php",
+		"/C/xampp/htdocs/reportesweb/session/libreria.php",
+		"/C/xampp/htdocs/reportesweb/session/libreriap.php",
+		"/C/xampp/htdocs/reportesweb/age_cxc_zonep.php",
+		"/C/xampp/htdocs/reportesweb/sty.css",
+		"/C/xampp/htdocs/reportesweb/active_cus_excel.php",
+		"/C/xampp/htdocs/Carpetas servidor/copia/index.php",
+		"/C/xampp/htdocs/Carpetas servidor/original/restricted/index.html",
+		"/C/xampp/htdocs/Carpetas servidor/index.html",
+		"/C/xampp/htdocs/reportesweb/age_cxc_sal_excel.php",
+		"/C/xampp/htdocs/reportesweb/age_cxc_salp.php",
+		"/C/xampp/htdocs/reportesweb/active_cusp_excel.php",
+		"/C/xampp/htdocs/DRR/1/reportes1/js/jquery.js",
+		"/C/Users/jaguilera/Downloads/www/www/Frontend/iconos.css",
+		"/C/xampp/htdocs/reportesweb/estilos.css",
+		"/C/xampp/htdocs/reportesweb/cus_invoiceh_excel.php",
+		"/C/xampp/htdocs/reportesweb/excel.php",
+		"/C/xampp/htdocs/reportesweb/age_cxc_cus.php",
+		"/C/xampp/htdocs/reportesweb/age_cxc_sal.php",
+		"/C/xampp/php/logs/php_error_log",
+		"/C/xampp/mysql/data/mysql_error.log",
+		"/C/xampp/htdocs/reportesweb/age_cxc_group_cont.php"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"}\n",
+			");\n",
+			"				$",
+			"				\n",
+			"				}\n				\n				$date_doc = substr($aro_doc_dt[$i],0,4).\"-\".substr($aro_doc_dt[$i],4,2).\"-\".substr($aro_doc_dt[$i],6,2);\n				$date_doc2 = substr($aro_doc_due_dt[$i],0,4).\"-\".substr($aro_doc_due_dt[$i],4,2).\"-\".substr($aro_doc_due_dt[$i],6,2);\n				$interval = dias_cartera($date_doc,date(\"Y-m-d\"));\n								\n				echo \"<br>(\".$date_doc.\") - (\".date(\"Y-m-d\").\") = \".$interval.\"<br>\";\n				echo \"Vencimiento: \".$date_doc2;\n\n				//date_add($fecha_new[$i], date_interval_create_from_date_string($fp));//echo date_format($fecha_new[$i], 'Y/m/d');				\n				$i++;\n	\n			$cont=$i;\n",
+			"else",
+			"C.par",
+			"order",
+			"html",
+			"libreria",
+			"libreriap",
+			"speed",
+			"speed, callback",
+			"function",
+			"align",
+			"p",
+			"271",
+			"libreria",
+			"protisa",
+			"h6",
+			"age",
+			"protisa"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "age_cxc_chile.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

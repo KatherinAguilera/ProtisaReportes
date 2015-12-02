@@ -1,0 +1,284 @@
+body
+{
+background:url(images/bgk.jpg) repeat-x top #fff;
+font-family:Arial, Helvetica, sans-serif;
+padding:0;
+font-size:12px;
+margin:0px 0 0 0;
+color:#6c7b81;
+}
+* {
+	font-family:Arial;
+	list-style:none;
+	text-decoration:none;
+	margin:0;
+	padding:0;
+}
+.logo img:hover{
+	border-radius: none;
+	-webkit-transform: rotate(360deg) scale(1.2);
+	-ms-transform: rotate(360deg) scale(1.1);
+	-mz-transform: rotate(360deg) scale(1.1);
+	 transition: all 0.7s ease;
+	text-align: left;
+	}
+.frase {
+	font-family:Arial, Helvetica, sans-serif;
+	padding:0;
+	font-size:14px;
+	color:#fff;
+	text-align:left;
+  }
+.menu{
+background: rgba(0,0,0,0.6);
+-ms-border-radius: 0.5em;
+padding: 0px 12px 150px 12px;
+margin-up:0px;
+}
+.nav > li {
+float:left;
+}
+.nav li a {
+background:#0c9ba0;
+color:#FFF;
+display:block;
+border: 1px solid;
+padding: 10px 50px 10px 50px;
+margin:0 0 0 0;
+}
+.nav li .fina a{
+background:#09C;
+color:#FFF
+	}
+.nav li .flecha{
+font-size: 9px;
+padding-left: 6px;
+display: none;
+}
+.nav li a:not(:last-child) .flecha {
+display: inline;
+}
+.nav li a:hover {
+background:#0fbfc6;
+}
+.nav li {
+position:relative;
+}
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+}
+.nav li:hover > ul {
+display:block;
+}
+.nav li ul li ul {
+right:-140px;
+top:0;
+}
+
+.logo p {
+	font-size: 36px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #09C;
+	margin-left: 50px;
+	text-align: center;
+	text-shadow: 2px 2px 1px 1px #FFC;
+}
+.logo p img {
+	text-align: right;
+    text-shadow: 10px 10px 10px 10px #FFF;
+}
+.logp img {
+	margin: 0 0 0 0;
+	text-align: left;
+}
+.content{
+	border-radius: 2.0em;
+	background: #fff;
+	width:1090px;
+    height:400px;
+    clear:both;
+    margin-left: 15em;
+}
+.wrap table tr th {
+	color: #4cb4e6;  
+	font-size: 32px;
+	font-family: "Arial", cursive none;
+	text-align: center;
+}
+.wrap table tr td {
+	text-align: center;   
+	color: #0CF;
+}
+.wrap table tr td {
+	font-size: 32px;
+	text-align: left;
+	font-family: "Arial", cursive none;
+	color: #4cb4e6;
+	font-style: normal;
+}
+td {
+	font-family: "Arial", cursive none;
+	font-size: 20px;
+}
+.wrap .content table tr td strong {
+	font-size: 30px;
+	color: #4cb4e6;
+	font-family: "Arial", cursive none;
+	text-align: left;
+}
+.wrap .content table {
+	text-align: center;
+	margin-left: 23em;
+}
+form {
+	color: #09C;
+}
+.form {
+	font-size: 40px;
+}
+/*c*/
+.main_content{
+border-radius:2.0em;
+background:#fff;	
+width:500px;
+height:500px;
+clear:both;
+padding:0 0 30px 0;
+overflow: scroll;
+}
+#cssmenu, .main_content
+{
+	display: inline-block;
+	margin:0px;
+	 vertical-align: top;
+	font-family: sans-serif;
+}
+.main_content table tr th {
+	text-align: center;
+}
+.main_content area{
+	margin-left: 1em;
+}
+.main_content table tr th h1 {
+	text-align: center;
+	font-size: 16px;
+	color: #399;
+}
+.main_content p {
+	text-align: center;
+	font-size: 16px;
+	color: #06F;
+	font-weight: bold;
+}
+.main_content table {
+	text-align: center;
+}
+.main_content .edad table{
+border-radius: 0.5em;
+text-align: center;
+margin-left: 25em;
+}
+.main_content .resultado table{
+text-align: center;
+margin-left: 5em;
+}
+.main_content .resultado table th{
+background: #DCF3A4;	
+text-align: center;
+margin-left: 5em;
+}
+.main_content .resultadoc table{	
+text-align: center;
+margin-left: 1em;
+}
+.main_content .resultadoc table th{	
+background: #DCF3A4;	
+text-align: center;
+margin-left: 1em;
+}
+h3{
+background:#FFF;
+text-align: center;
+font-size: 11px;
+margin-left:15em;
+color: #0fbfc6;
+font-family: Verdana;
+font-weight:bold;
+}
+h4{
+text-align: center;
+margin-left:15em;
+color: #000;
+font-size: 11px;
+}
+h5{
+text-align: center;
+margin-left:8em ;
+color: #000;
+font-size: 15px;
+}
+h6{
+text-align: center;
+margin-left:8em ;
+color: #09C;
+font-size: 18px;
+}
+h2{
+
+text-align: center;
+font-size: 11px;
+margin-left:3em;
+color: #FFF;
+font-family: Verdana;
+font-weight:bold;
+}
+h2 .inicio{
+
+font-size: 14px;
+margin-left:0;
+color: #FFF;
+font-family: Verdana;
+font-weight:bold;
+}
+input 
+{
+	font-size: 10pt;
+	text-align: center;
+	border-radius: 1em;
+	background-color: #e2eff4;
+	font-family: Arial;
+    font-weight:bold;
+    padding:0.5em;
+    margin-left:15em;
+    margin-top:4em;
+}
+input .fieldtext{
+border-radius: 0.5
+}
+.main_content table{
+  border-radius:0.8em;
+} 
+input.input{
+	width:210px;
+	height:19px;
+	float:left;
+	border:1px #98cdec solid;
+	background-color:#e2eff4;
+	color:#3596c5;
+	font-style:italic;
+	font-size:13px;
+	text-align:right; 
+	margin:3px 0 0 0;
+	padding:2px 0 0 5px;
+}
+/*.main_content table tr .encabezado td h5, .boton{
+
+	 display: inline-block;
+	 vertical-align: top;
+}
+/*.calcular input{
+	margin:0 0 5em 0 ;
+}

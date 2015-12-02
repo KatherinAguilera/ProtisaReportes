@@ -1,0 +1,132 @@
+.center_text{
+width:430px;
+height:330px;
+float:left;
+display:inline;
+margin:20px 0 0 10px;
+}
+.center_text p{
+	color:#CCC;
+	line-height:21px;
+	text-align: justify;
+	font-size: 12px;
+}
+.big_title{
+font-size:36px;
+color:#FFFFFF;
+padding:0 0 10px 0;
+}
+.big_title span{
+font-weight:bold;
+color:#4cb4e6;
+}
+.center_button_icons{
+width:450px;
+overflow:hidden;
+margin:6px 0 0;
+padding:0 0 0 5px;
+}
+.center_button_icons li{
+width:106px;
+float:left;
+overflow:hidden;
+padding:0px 12px 0;
+text-align:center;
+}
+.center_button_icons li a{
+font-size:10px;
+text-decoration:none;
+}
+.center_button_icons li a:hover{
+color:#99FFFF;
+}
+.right_img{
+float:left;
+width:384px;
+height:281px;
+text-align:center;
+padding:10px 0 0 0;
+background:url(images/photo_frame.jpg) no-repeat center;
+display:inline;
+margin:16px 0 0 48px;
+}
+.footer {
+background:000;
+color:#c5c7c8;
+padding:10px 0 10px 0;
+}
+.wrap p {
+	font-size: 12px;
+	text-align: center;
+
+}
+.wrap table tr th {
+	color: #4cb4e6;
+	font-size: 12px;
+	font-family: "Arial, Helvetica, sans-serif", cursive;
+	text-align: left;
+}
+.wrap table tr td {
+	text-align: center;
+	color: #0CF;
+}
+.wrap table tr td {
+	font-size: 12px;
+	text-align: left;
+	font-family: "Bookman Old Style";
+	color: #4cb4e6;
+	font-style: normal;
+}
+.wrap table { 
+	font-size: 12px;
+	text-align: left;
+}
+td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #000;	
+}
+tr {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #000;
+}
+
+.wrap .header table {
+	text-align: right;
+}
+.wrap .main_content table tr td  {
+	font-size: 12px;
+	color: #4cb4e6;
+	font-family: "Arial";
+}
+.wrap .main_content table {
+	text-align: left;
+}
+form {
+	color: #09C;
+}
+form {
+	font-size: 12px;
+}
+.wrap .header #form2 {
+	font-style: italic;
+}
+.wrap .header #form2 {
+	font-family: "Comic Sans MS", cursive;
+	text-align: right;
+	color: #0CF;
+}
+form {
+	font-weight: bold;
+	text-align: right;
+}
+form {
+	font-style: italic;
+}
+form {
+	font-family: "Arial", cursive;
+	font-size: 12px;
+}
